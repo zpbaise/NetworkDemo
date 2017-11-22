@@ -10,6 +10,7 @@ import java.util.List;
 
 import io.reactivex.Observable;
 import io.reactivex.functions.Function;
+import io.reactivex.functions.Predicate;
 
 
 /**

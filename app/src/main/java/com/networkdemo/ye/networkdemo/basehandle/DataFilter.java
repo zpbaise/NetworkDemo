@@ -25,13 +25,9 @@ import io.reactivex.functions.Predicate;
  * 此时可使用此类进行过滤操作，合法的数据会被返回，异常的数据会抛出一个LoadException
  */
 
-public class DataFilter<T,R> implements Function<T,R> {
-    @Override
-    public R apply(T t) throws Exception {
-        return null;
-    }
+public class DataFilter<T> implements Predicate<T> {
 
-    /*//要过滤的字段的值
+    //要过滤的字段的值
     private T mFieldValue;
     //期望的值
     private T mExpectation;
@@ -50,5 +46,5 @@ public class DataFilter<T,R> implements Function<T,R> {
             throw new LoadException(mExceptionMessage);
         }
         return true;
-    }*/
+    }
 }
