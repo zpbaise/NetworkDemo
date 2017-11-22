@@ -1,5 +1,5 @@
 # NetworkDemo
-retrofit+rxjava+mvp网络框架基本模式
+retrofit+okhttp+rxjava+mvp网络框架基本模式
 ## 架构模式
 为了更好的解耦，在model层和presenter层之间再次抽象出一个业务层。
 model层为数据模型层。
